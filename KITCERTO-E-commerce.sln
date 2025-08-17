@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gateway-api", "gateway-api\gateway-api.csproj", "{D36C8679-BE47-4D5C-97A0-A7DFAE974341}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "micro-estoque", "micro-estoque\micro-estoque.csproj", "{0B87F370-9B49-4080-8C46-4FF9AED78460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "micro-vendas", "micro-vendas\micro-vendas.csproj", "{2C285C06-95CD-4418-AEED-F110C7DBF91A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared-kit", "shared-kit\shared-kit.csproj", "{E8CBE750-E8BB-4DB5-A4E8-B913B189CEC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D36C8679-BE47-4D5C-97A0-A7DFAE974341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36C8679-BE47-4D5C-97A0-A7DFAE974341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36C8679-BE47-4D5C-97A0-A7DFAE974341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36C8679-BE47-4D5C-97A0-A7DFAE974341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B87F370-9B49-4080-8C46-4FF9AED78460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B87F370-9B49-4080-8C46-4FF9AED78460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B87F370-9B49-4080-8C46-4FF9AED78460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B87F370-9B49-4080-8C46-4FF9AED78460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C285C06-95CD-4418-AEED-F110C7DBF91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C285C06-95CD-4418-AEED-F110C7DBF91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C285C06-95CD-4418-AEED-F110C7DBF91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C285C06-95CD-4418-AEED-F110C7DBF91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CBE750-E8BB-4DB5-A4E8-B913B189CEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CBE750-E8BB-4DB5-A4E8-B913B189CEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CBE750-E8BB-4DB5-A4E8-B913B189CEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CBE750-E8BB-4DB5-A4E8-B913B189CEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\bin\Debug\net8.0\shared-kit.deps.json
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\bin\Debug\net8.0\shared-kit.dll
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\bin\Debug\net8.0\shared-kit.pdb
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.AssemblyInfoInputs.cache
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.AssemblyInfo.cs
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.csproj.CoreCompileInputs.cache
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.dll
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\refint\shared-kit.dll
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.pdb
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\ref\shared-kit.dll
