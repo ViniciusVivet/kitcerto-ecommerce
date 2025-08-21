@@ -1,0 +1,8 @@
+[Bb]in/
+[Oo]bj/
+
+appsettings.json
+appsettings.*.json
+
+micro-estoque/Migrations/
+micro-vendas/Migrations/

@@ -5,6 +5,7 @@ C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-
 C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.AssemblyInfoInputs.cache
 C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.AssemblyInfo.cs
 C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.csproj.CoreCompileInputs.cache
+C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.sourcelink.json
 C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.dll
 C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\refint\shared-kit.dll
 C:\Users\dougl\Documents\KITCERTO-E-commerce\shared-kit\obj\Debug\net8.0\shared-kit.pdb
