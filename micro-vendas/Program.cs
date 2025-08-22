@@ -40,4 +40,6 @@ app.MapControllers();
 var consumidor = new RabbitMqConsumidor();
 Task.Run(() => consumidor.IniciarConsumo());
 
+app.MapGet("/health", () => Results.Ok("ok"));
+
 app.Run();

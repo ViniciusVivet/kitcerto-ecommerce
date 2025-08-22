@@ -8,31 +8,38 @@ using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adicionamos a configuração do JWT
-var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]));
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+// Carrega valores do appsettings / env com fallback seguro em dev
+var jwtKey = builder.Configuration["Jwt:Key"] ?? "dev-secret-change-me";
+var jwtIssuer = builder.Configuration["Jwt:Issuer"];
+var jwtAudience = builder.Configuration["Jwt:Audience"];
+var signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
+
+builder.Services
+    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["Jwt:Issuer"],
-            ValidAudience = builder.Configuration["Jwt:Audience"],
-            IssuerSigningKey = key
+            IssuerSigningKey = signingKey,
+
+            // Em dev, se não tiver Issuer/Audience configurados, não valide (evita NullReference)
+            ValidateIssuer = !string.IsNullOrWhiteSpace(jwtIssuer),
+            ValidIssuer = jwtIssuer,
+
+            ValidateAudience = !string.IsNullOrWhiteSpace(jwtAudience),
+            ValidAudience = jwtAudience,
+
+            ValidateLifetime = true
         };
     });
 
-// Adicionamos os serviços de autenticação e o contexto do banco de dados
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configura o HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -45,5 +52,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// endpoint simples pra testar se tá no ar
+app.MapGet("/health", () => Results.Ok("ok"));
 
 app.Run();

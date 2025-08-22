@@ -1,8 +1,24 @@
-[Bb]in/
-[Oo]bj/
+# User secrets
+secrets.json
+*.secret.json
 
-appsettings.json
-appsettings.*.json
+# Variáveis de ambiente
+.env
+.env.*
 
-micro-estoque/Migrations/
-micro-vendas/Migrations/
+# Logs
+*.log
+logs/
+LogFiles/
+
+# Cache e arquivos temporários
+.vscode/
+.idea/
+*.swp
+*.suo
+*.user
+*.cache
+*.tmp
+
+# Docker volumes/overrides
+docker-compose.override.yml

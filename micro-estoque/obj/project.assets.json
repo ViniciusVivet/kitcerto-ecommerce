@@ -746,10 +746,10 @@
           }
         }
       },
-      "Microsoft.IdentityModel.JsonWebTokens/7.0.0": {
+      "Microsoft.IdentityModel.JsonWebTokens/7.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "7.0.0"
+          "Microsoft.IdentityModel.Tokens": "7.0.3"
         },
         "compile": {
           "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
@@ -886,6 +886,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
+        }
+      },
+      "RabbitMQ.Client/6.6.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore/6.4.0": {
@@ -1166,11 +1183,11 @@
           }
         }
       },
-      "System.IdentityModel.Tokens.Jwt/7.0.0": {
+      "System.IdentityModel.Tokens.Jwt/7.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "7.0.0",
-          "Microsoft.IdentityModel.Tokens": "7.0.0"
+          "Microsoft.IdentityModel.JsonWebTokens": "7.0.3",
+          "Microsoft.IdentityModel.Tokens": "7.0.3"
         },
         "compile": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
@@ -1199,7 +1216,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Memory/4.5.4": {
+      "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -1469,20 +1486,20 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "System.Threading.Channels/6.0.0": {
+      "System.Threading.Channels/7.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Threading.Channels.dll": {
+          "lib/net7.0/System.Threading.Channels.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net6.0/System.Threading.Channels.dll": {
+          "lib/net7.0/System.Threading.Channels.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
@@ -2888,10 +2905,10 @@
         "microsoft.identitymodel.abstractions.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.JsonWebTokens/7.0.0": {
-      "sha512": "N+hUPsFZs+IhlMU+qmX8NnYVB9uMxVdcWoPIhKo4oHDR/yuIFh19SVZeFby15cm8S9yedynOcfs7TU5oDCheZw==",
+    "Microsoft.IdentityModel.JsonWebTokens/7.0.3": {
+      "sha512": "vxjHVZbMKD3rVdbvKhzAW+7UiFrYToUVm3AGmYfKSOAwyhdLl/ELX1KZr+FaLyyS5VReIzWRWJfbOuHM9i6ywg==",
       "type": "package",
-      "path": "microsoft.identitymodel.jsonwebtokens/7.0.0",
+      "path": "microsoft.identitymodel.jsonwebtokens/7.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2907,7 +2924,7 @@
         "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "microsoft.identitymodel.jsonwebtokens.7.0.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
         "microsoft.identitymodel.jsonwebtokens.nuspec"
       ]
     },
@@ -3078,6 +3095,23 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/6.6.0": {
+      "sha512": "klht0KBLO7xs/uIn8uejq1VC5wJJ8dHJSm2GmFmJHWQnFzWK5YTNUta6IrnuzitR1T5psxIuqwdQqalbTLPtcA==",
+      "type": "package",
+      "path": "rabbitmq.client/6.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/RabbitMQ.Client.dll",
+        "lib/net462/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.6.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.4.0": {
@@ -3446,10 +3480,10 @@
         "version.txt"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/7.0.0": {
-      "sha512": "3OpN2iJf8lxpzVeFeeZSLtR3co6uKBs3VudS3PkkgdX5WF9fqqdhRMYf7WbkxqWQP/9RpoFbD3RimhfJe3hlQQ==",
+    "System.IdentityModel.Tokens.Jwt/7.0.3": {
+      "sha512": "caEe+OpQNYNiyZb+DJpUVROXoVySWBahko2ooNfUcllxa9ZQUM8CgM/mDjP6AoFn6cQU9xMmG+jivXWub8cbGg==",
       "type": "package",
-      "path": "system.identitymodel.tokens.jwt/7.0.0",
+      "path": "system.identitymodel.tokens.jwt/7.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3465,7 +3499,7 @@
         "lib/net8.0/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.7.0.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -3494,10 +3528,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Memory/4.5.4": {
-      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
-      "path": "system.memory/4.5.4",
+      "path": "system.memory/4.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3511,7 +3545,7 @@
         "lib/netstandard2.0/System.Memory.dll",
         "lib/netstandard2.0/System.Memory.xml",
         "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.4.5.5.nupkg.sha512",
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -4043,29 +4077,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Threading.Channels/6.0.0": {
-      "sha512": "TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
+    "System.Threading.Channels/7.0.0": {
+      "sha512": "qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
       "type": "package",
-      "path": "system.threading.channels/6.0.0",
+      "path": "system.threading.channels/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.Channels.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.Threading.Channels.dll",
-        "lib/net461/System.Threading.Channels.xml",
+        "lib/net462/System.Threading.Channels.dll",
+        "lib/net462/System.Threading.Channels.xml",
         "lib/net6.0/System.Threading.Channels.dll",
         "lib/net6.0/System.Threading.Channels.xml",
-        "lib/netcoreapp3.1/System.Threading.Channels.dll",
-        "lib/netcoreapp3.1/System.Threading.Channels.xml",
+        "lib/net7.0/System.Threading.Channels.dll",
+        "lib/net7.0/System.Threading.Channels.xml",
         "lib/netstandard2.0/System.Threading.Channels.dll",
         "lib/netstandard2.0/System.Threading.Channels.xml",
         "lib/netstandard2.1/System.Threading.Channels.dll",
         "lib/netstandard2.1/System.Threading.Channels.xml",
-        "system.threading.channels.6.0.0.nupkg.sha512",
+        "system.threading.channels.7.0.0.nupkg.sha512",
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4142,8 +4178,8 @@
       "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
+      "RabbitMQ.Client >= 6.6.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
-      "System.IdentityModel.Tokens.Jwt >= 7.0.0",
       "shared-kit >= 1.0.0"
     ]
   },
@@ -4209,13 +4245,13 @@
             "target": "Package",
             "version": "[8.0.0, )"
           },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.6.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
-          },
-          "System.IdentityModel.Tokens.Jwt": {
-            "target": "Package",
-            "version": "[7.0.0, )"
           }
         },
         "imports": [
@@ -4240,26 +4276,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'System.IdentityModel.Tokens.Jwt' 7.0.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Aviso como Erro: Downgrade de pacote detectado: System.IdentityModel.Tokens.Jwt de 7.0.3 para 7.0.0. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n micro-estoque -> Microsoft.AspNetCore.Authentication.JwtBearer 8.0.0 -> Microsoft.IdentityModel.Protocols.OpenIdConnect 7.0.3 -> System.IdentityModel.Tokens.Jwt (>= 7.0.3) \r\n micro-estoque -> System.IdentityModel.Tokens.Jwt (>= 7.0.0)",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }
